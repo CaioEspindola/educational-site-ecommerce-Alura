@@ -1,0 +1,67 @@
+.cabecalho {
+  background-color: #ffffff;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cabecalho__logo {
+  width: 93px;
+}
+
+.cabecalho__barra--pesquisa {
+  display: none;
+}
+
+.cabecalho__botao--login {
+  width: 133px;
+  height: 40px;
+  margin: 16px;
+  background-color: #ffffff;
+  border-color: #2a7ae4;
+  font-family: 'raleway';
+  font-size: 14px;
+  font-weight: 600;
+  color: #2a7ae4;
+}
+
+.cabecalho__icone--pesquisa {
+  width: 17px;
+  height: 17px;
+}
+
+@media (min-width: 768px) {
+  .cabecalho__icone--pesquisa {
+    display: none;
+  }
+
+  .cabecalho__barra--pesquisa {
+    display: flex;
+    margin-right: 9rem;
+  }
+
+  .cabecalho__botao--login {
+    margin-right: 2rem
+  }
+
+  .cabecalho {
+    padding-left: 1.2rem;
+  }
+  
+  .cabecalho__logo {
+    margin: 1rem;
+    width: 120px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .cabecalho__logo {
+    width: 165px;
+    margin-left: 3rem;
+  }
+
+  .cabecalho__botao--login {
+    width: 182px;
+    height: 50px;
+    margin-left: 28rem;
+  }
+}

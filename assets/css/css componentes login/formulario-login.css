@@ -1,0 +1,71 @@
+main {
+  background-color: #e5e5e5;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  margin: revert;
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-weight: 700;
+}
+.estrutura__formulario-login {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.formulario__input--email {
+  display: flex;
+  width: 275px;
+  height: 41px;
+  justify-content: center;
+  margin-bottom: 1rem;
+  font-family: 'Raleway';
+  font-size: 12px;
+  font-weight: 400;
+  color: #a2a2a2;
+}
+
+.formulario__input--senha {
+  width: 275px;
+  height: 41px;
+  font-family: 'Raleway';
+  font-size: 12px;
+  font-weight: 400;
+  color: #a2a2a2;
+}
+
+.formulario__botao {
+  font-family: 'Raleway';
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  width: 109px;
+  height: 40px;
+  background-color: #2a7ae4;
+  border: none;
+  margin-top: 1rem;
+}
+
+@media (min-width: 1440px) {
+  main {
+    min-height: 500px;
+  }
+  .formulario__input--email {
+    width: 423px;
+    height: 63px;
+  }
+  .formulario__input--senha {
+    width: 423px;
+    height: 63px;
+  }
+  .formulario__botao {
+    width: 423px;
+    height: 63px;
+  }
+}

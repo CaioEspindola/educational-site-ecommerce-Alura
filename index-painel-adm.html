@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alura Geek-Adicionar-Produto</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/assets/css/css componentes base/normalize.css">
+    <link rel="stylesheet" href="/assets/css/css componentes base/reset.css" />
+    <link rel="stylesheet" href="/assets/css/css componente painel adm/estyle-painel-adm.css">
+    <link rel="stylesheet" href="/assets/css/css componente painel adm/cabecalho-painel-adm.css">
+    <link rel="stylesheet" href="/assets/css/css componente painel adm/rodape-painel-adm.css">
+    <link rel="stylesheet" href="/assets/css/css componente painel adm/cadastrar-produto-painel-adm.css">
+
+
+    </head>
+
+    <body>
+      <header class="container cabecalho">
+        
+        <img
+          src="/assets/img logomarcas/Logo.png"
+          alt="Logomarca AluraGeek"
+          class="cabecalho__logo"
+        />
+        <img src="/assets/fotos/Barra de pesquisa.png" alt="Barra de pesquisa" class="cabecalho__barra--pesquisa">
+        <button class="cabecalho__botao--login">
+          
+          <a href="#" aria-label="Fazer Login">Menu administrador</a>
+        </button>
+        <a href="#" aria-label="lupa de pesquisa">
+          <img
+            src="/assets/icones/Pesquisalupa.svg"
+            alt="Icone de pesquisa"
+            class="cabecalho__icone--pesquisa"
+        /></a>
+     
+      </header>
+
+      <main>
+        <h1>Adicionar novo produto</h1>
+        <div class="add__imagem">
+          <img src="/assets/icones/Vector-+-img.svg" alt="Adicione a imagem do seu produtos" class="vetor__add--img">
+          <img src="/assets/icones/Vector-icone-img.svg" alt="Adicione a imagem do seu produto" class="vetor__add--img--desktop">
+          <h2>Adicionar uma imagem para o produto</h2>
+          <h3>Arraste pare adicionar uma</br>imagem para seu produto</h3>
+        </div>
+
+        <div class="add__imagem--desktop">
+          <p>Ou</p>
+          <button class="botao__add--produto">
+            <a href="#" aria-label="Adicionar produto">Procure em seus arquivos</a>
+          </button>
+        </div>
+
+        <section class="estrutura__formulario--painel--adm">
+          <form class="formulario">
+            <input type="text" id="nome" class="formulario__input--nome" placeholder="Nome do produto" />
+            <input type="text" id="mensagem" class="formulario__input--preco" placeholder="Preço do produto"/>
+            <input type="text" id="mensagem" class="formulario__input--descricao" placeholder="Descrição do produto"/>
+          </form>
+  
+          <button class="formulario__botao">
+            <a href="#" aria-label="Entrar">Adicionar produto</a>
+          </button>
+        </section>
+
+      </main>
+
+      <footer class="container__rodape">
+        <div class="rodape__box">
+          <img
+          src="/assets/img logomarcas/Logo.png"
+          alt="Logomarca AluraGeek"
+          class="rodape__logo"
+          />
+          <ul class="rodape__lista">
+            <li>Quem somos nós</li>
+            <li>Politica de privacidade</li>
+            <li>Programa fidelidade</li>
+            <li>Nossas lojas</li>
+            <li>Quero ser franqueado</li>
+            <li>Anuncie aqui</li>
+          </ul>
+          
+          <section class="estrutura__formulario">
+            <form class="rodape__formulario">
+              <h2 class="rodape__titulo--input">Fale conosco</h2>
+              <input type="text" id="nome" class="rodape__input--nome" placeholder="Nome" />
+              <input
+              type="text"
+              id="mensagem"
+              class="rodape__input--msg"
+              placeholder="Escreva sua mensagem"
+              />
+            </form>
+            <button class="rodape__botao">
+              <a href="#" aria-label="Enviar Mensagem">Enviar Mensagem</a>
+            </button>
+          </section>
+        </div>
+      </footer>
+      <div class="rodape__final container__rodape">
+        <p>Challenge Alura - Desenvolvido por</br>Caio Espíndola 2022</p>
+      </div>
+   </body>
+   </html>

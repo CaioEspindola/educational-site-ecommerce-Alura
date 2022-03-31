@@ -1,0 +1,140 @@
+h1 {
+  font-family: 'Raleway';
+  font-size: 22px;
+  font-weight: 700;
+  color: #464646;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-weight: 700;
+  color: #464646;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.produto__texto--principal {
+  margin: 1rem;
+}
+
+.produto__img--principal {
+  width: 100%;
+  height: 192px;
+}
+
+.produtos__topo {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.produtos__titulo--topo {
+  font-family: 'Raleway';
+  font-size: 22px;
+  font-weight: 700;
+  color: #464646;
+}
+
+.produtos__botao--topo {
+  font-family: 'Raleway';
+  font-size: 14px;
+  font-weight: 700;
+  color: #2a7ae4;
+  background: none;
+  border: none;
+}
+
+.produtos__titulo {
+  font-family: 'Raleway';
+  font-size: 14px;
+  font-weight: 500;
+  color: #464646;
+  margin: 8px;
+}
+
+.produtos__preço {
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-weight: 700;
+  color: #464646;
+  margin: 8px;
+}
+
+.produtos__botao--ver--produto {
+  font-family: 'Raleway';
+  font-size: 14px;
+  font-weight: 700;
+  color: #2a7ae4;
+  background: none;
+  border: none;
+}
+
+.produtos__lista--desktop {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  main {
+    display: flex;
+    align-items: center;
+  }
+
+  .produtos__topo {
+    padding: 1rem 2rem;
+  }
+  .produto__img--principal {
+    width: 254px;
+    height: 157px;
+    margin-left: 1rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .produtos__topo {
+    padding: 1rem 3rem;
+  }
+
+  .produtos__lista--desktop {
+    display: grid;
+  }
+
+  .produtos__botao--ver--produto {
+    display: flex;
+  }
+  .produto__img--principal {
+    width: 560px;
+    height: 400px;
+    margin-left: 1rem;
+  }
+  h1 {
+    font-size: 52px;
+    margin-bottom: 0.5rem;
+  }
+
+  h2 {
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  main {
+    padding: 2.5rem;
+  }
+  .produto__texto--principal {
+    margin: 1rem;
+    margin-right: 7rem;
+  }
+}
