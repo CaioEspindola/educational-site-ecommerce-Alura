@@ -1,0 +1,185 @@
+main {
+  background-color: #e5e5e5;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Raleway';
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  padding-top: 1rem;
+}
+
+h2 {
+  font-family: 'Raleway';
+  font-size: 14px;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: 'Raleway';
+  font-size: 14px;
+  font-weight: 400;
+  display: none;
+}
+
+.add__imagem {
+  background-color: #ffffff;
+  border: 1px dashed #c8c8c8;
+  box-sizing: border-box;
+  width: 328px;
+  height: 234px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.vetor__add--img {
+  width: 20px;
+  height: 20px;
+}
+
+.vetor__add--img--desktop {
+  display: none;
+}
+
+.add__imagem--desktop {
+  display: none;
+}
+
+.estrutura__formulario--painel--adm {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.formulario__input--nome {
+  width: 320px;
+  height: 56px;
+  margin-bottom: 1rem;
+  font-family: 'Raleway';
+  font-size: 12px;
+  font-weight: 400;
+  color: #a2a2a2;
+}
+
+.formulario__input--preco {
+  width: 320px;
+  height: 56px;
+  margin-bottom: 1rem;
+  font-family: 'Raleway';
+  font-size: 12px;
+  font-weight: 400;
+  color: #a2a2a2;
+}
+
+.formulario__input--descricao {
+  width: 320px;
+  height: 82px;
+  margin-bottom: 1rem;
+  font-family: 'Raleway';
+  font-size: 12px;
+  font-weight: 400;
+  color: #a2a2a2;
+}
+
+.formulario__botao {
+  font-family: 'Raleway';
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  width: 328px;
+  height: 51px;
+  background-color: #2a7ae4;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  main {
+    display: block;
+  }
+  .add__imagem {
+    margin-left: 2rem;
+  }
+
+  h1 {
+    margin-left: 2rem;
+  }
+
+  .formulario__input--nome {
+    width: 700px;
+  }
+
+  .formulario__input--preco {
+    width: 700px;
+  }
+
+  .formulario__input--descricao {
+    width: 700px;
+  }
+
+  .formulario__botao {
+    width: 710px;
+  }
+
+  .vetor__add--img {
+    display: none;
+  }
+
+  h2 {
+    display: none;
+  }
+
+  h3 {
+    display: flex;
+  }
+
+  .vetor__add--img--desktop {
+    display: flex;
+    width: 32px;
+    height: 32px;
+  }
+
+  .add__imagem--desktop {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 13rem;
+    margin-left: 23rem;
+  }
+
+  .botao__add--produto {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    width: 250px;
+    height: 51px;
+    color: #2a7ae4;
+    border-color: #2a7ae4;
+    margin: 1rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  h1 {
+    margin-left: 23rem;
+  }
+  .formulario {
+    display: grid;
+    justify-content: center;
+  }
+
+  .add__imagem {
+    margin-left: 23rem;
+  }
+  .add__imagem--desktop {
+    margin-left: 44rem;
+  }
+}

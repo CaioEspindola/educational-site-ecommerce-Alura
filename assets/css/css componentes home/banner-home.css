@@ -1,0 +1,65 @@
+.banner__principal {
+  
+  background-image: url(/assets/fotos/banner-image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 192px;
+ 
+}
+.banner__titulo {
+  font-family: 'raleway';
+  font-size: 22px;
+  font-weight: 700;
+  color: #ffffff;
+  position: relative;
+  top: 86px;
+  margin-left: 1rem;
+}
+
+.banner__paragrafo {
+  font-family: 'raleway';
+  font-size: 14px;
+  font-weight: 600px;
+  color: #ffffff;
+  position: relative;
+  top: 94px;
+  margin-left: 1rem;
+}
+
+.banner__botao {
+  font-family: 'raleway';
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  width: 119px;
+  height: 40px;
+  background-color: #2a7ae4;
+  border: none;
+
+  position: relative;
+  top: 106px;
+  margin-left: 1rem;
+}
+
+@media (min-width: 768px) {
+  .banner__principal {
+    height: 352px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .banner__principal h1 {
+    font-size: 52px;
+  }
+
+  .banner__principal p {
+    font-size: 22px;
+  }
+
+  .banner__botao {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,101 @@
+main {
+  background-color: #e5e5e5;
+}
+
+h1 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 1rem;
+  margin-left: 1.5rem;
+}
+
+h2 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 0.5rem;
+}
+
+h3 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+p {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 0.5rem;
+}
+
+.titulo__painel {
+  padding-top: 1rem;
+}
+
+.produtos__lista--edicao {
+  position: relative;
+}
+
+.produto__imagem{
+  width: 156px;
+  height: 156px;
+  
+}
+
+.icones__edicao {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+
+.icone__lixeira {
+  margin-right: 0.5rem;
+}
+
+.painel__adm--botao {
+  font-family: 'Raleway';
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  width: 150px;
+  height: 40px;
+  background-color: #2a7ae4;
+  border: none;
+  margin-left: 1.5rem;
+}
+
+@media (min-width: 768px) {
+
+.titulo__painel {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+h1 {
+  margin-left: 2rem;
+}
+
+.painel__adm--botao {
+  margin-right: 2rem;
+}
+
+}
+
+@media (min-width: 1440px) {
+  h1 {
+    margin-left: 4rem;
+  }
+  
+  .painel__adm--botao {
+    margin-right: 4rem;
+  }
+}  

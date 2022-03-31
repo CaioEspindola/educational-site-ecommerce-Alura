@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+}
+
+.container__grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  justify-items: center;
+  padding: 1rem;
+}
+
+.container__rodape {
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  .container__grid {
+    display: flex;
+    justify-content: space-around;
+  }
+}

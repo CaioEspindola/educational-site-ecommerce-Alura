@@ -1,0 +1,158 @@
+.rodape__box {
+  background-color: #eaf2fd;
+  width: 100%;
+  height: 553px;
+  padding-top: 1rem;
+}
+
+.rodape__logo {
+  width: 165px;
+  height: auto;
+  margin-left: 6.5rem;
+}
+
+.rodape__lista {
+  font-family: 'raleway';
+  font-size: 16px;
+  font-weight: 500;
+  color: #464646;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.estrutura__formulario {
+  margin-left: 1.2rem;
+}
+
+.estrutura__formulario-rodape {
+  margin-left: 1rem;
+}
+
+.rodape__titulo--input {
+  text-align: start;
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+}
+
+.rodape__input--nome {
+  display: flex;
+  width: 328px;
+  height: 56px;
+  justify-content: center;
+  margin-bottom: 1rem;
+  font-family: 'Raleway';
+  font-size: 12px;
+  font-weight: 400;
+  color: #a2a2a2;
+}
+
+.rodape__input--msg {
+  width: 328px;
+  height: 82px;
+  font-family: 'Raleway';
+  font-size: 12px;
+  font-weight: 400;
+  color: #a2a2a2;
+}
+
+.rodape__botao {
+  font-family: 'Raleway';
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  width: 179px;
+  height: 40px;
+  background-color: #2a7ae4;
+  border: none;
+  margin-top: 1rem;
+}
+
+.rodape__final {
+  background-color: #ffffff;
+  width: auto;
+  height: 102px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+.ajuste__font--size {
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .rodape__box {
+    height: 364px;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 50% 1fr;
+    grid-template-areas:
+      'logo'
+      'texto'
+      'formulario';
+  }
+
+  .rodape__lista {
+    grid-area: logo;
+    grid-row: 1;
+    text-align: left;
+    align-self: center;
+    margin-top: 3rem;
+    margin-left: 6.5rem;
+  }
+
+  .estrutura__formulario {
+    padding: inherit;
+    margin-left: 0;
+  }
+
+  .estrutura__formulario-rodape {
+    padding-top: 1rem;
+    margin-left: 0;
+  }
+
+  .rodape__logo {
+    grid-area: logo;
+  }
+}
+
+@media (min-width: 1440px) {
+  .rodape__box {
+    height: 364px;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 50% 1fr;
+    grid-template-areas:
+      'logo'
+      'texto'
+      'formulario';
+  }
+
+  .rodape__lista {
+    grid-area: logo;
+    grid-row: 1;
+    text-align: left;
+    align-self: center;
+    margin-left: 30rem;
+  }
+
+  .rodape__logo {
+    grid-area: logo;
+    margin-left: 13rem;
+    padding-top: 3rem;
+  }
+
+  .estrutura__formulario {
+    padding: inherit;
+    margin-left: 4rem;
+    padding-top: 2rem;
+}
+}

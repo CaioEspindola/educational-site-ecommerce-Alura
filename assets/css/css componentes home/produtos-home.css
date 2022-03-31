@@ -1,0 +1,73 @@
+.produtos__topo {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.produtos__titulo--topo {
+  font-family: 'Raleway';
+  font-size: 22px;
+  font-weight: 700;
+  color: #464646;
+  margin-left: 0.5rem;
+}
+
+.produtos__botao--topo {
+  font-family: 'Raleway';
+  font-size: 14px;
+  font-weight: 700;
+  color: #2a7ae4;
+  background: none;
+  border: none;
+  margin-right: 0.5rem;
+}
+
+.produtos__titulo {
+  font-family: 'Raleway';
+  font-size: 14px;
+  font-weight: 500;
+  color: #464646;
+  margin: 8px;
+}
+
+.produtos__preço {
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-weight: 700;
+  color: #464646;
+  margin: 8px;
+}
+
+.produtos__botao--ver--produto {
+  font-family: 'Raleway';
+  font-size: 14px;
+  font-weight: 700;
+  color: #2a7ae4;
+  background: none;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.produtos__lista--desktop {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .produtos__topo {
+    padding: 1rem 2rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .produtos__topo {
+    padding: 1rem 3rem;
+  }
+
+  .produtos__lista--desktop {
+    display: grid;
+  }
+
+  .produtos__botao--ver--produto {
+    display: flex;
+  }
+}
