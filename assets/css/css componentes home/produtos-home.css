@@ -63,6 +63,7 @@ body {
 }
 
 @media (min-width: 1440px) {
+
   .produtos__topo {
     padding: 1rem 3rem;
   }
@@ -73,5 +74,16 @@ body {
 
   .produtos__botao--ver--produto {
     display: flex;
+  }
+}
+
+@media (min-width: 1920px) and (max-width: 2560px) {  
+
+  .produtos__titulo--topo {
+    margin-left: 6rem
+  }
+
+  .produtos__botao--topo {
+    margin-right: 6rem
   }
 }

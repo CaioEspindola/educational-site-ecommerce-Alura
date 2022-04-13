@@ -1,13 +1,12 @@
-.banner__principal {
-  
+.banner__principal {  
   background-image: url(/assets/fotos/banner-image.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 100vw;
   height: 192px;
- 
 }
+
 .banner__titulo {
   font-family: 'raleway';
   font-size: 22px;
@@ -44,6 +43,7 @@
 }
 
 @media (min-width: 768px) {
+  
   .banner__principal {
     height: 352px;
     display: flex;
@@ -53,13 +53,44 @@
 
   .banner__principal h1 {
     font-size: 52px;
+    margin-left: 2rem;
   }
 
   .banner__principal p {
     font-size: 22px;
+    margin-left: 2rem;
   }
 
   .banner__botao {
     font-size: 14px;
+    margin-left: 2rem;
   }
 }
+
+@media (min-width: 1920px) and (max-width: 2560px) {
+
+  .banner__principal h1 {
+    font-size: 70px;
+    margin-left: 9rem;
+    top: 50px;
+
+  }
+
+  .banner__principal p {
+    font-size: 22px;
+    margin-left: 9rem;
+    top: 64px;
+
+
+  }
+
+  .banner__botao {
+    font-size: 16px;
+    margin-left: 9rem;
+    top: 80px;
+    width: 170px;
+    height: 50px;
+
+  }
+} 
+

@@ -19,8 +19,7 @@
   grid-template-columns: 25% 25% 25% 25%;
   justify-items: center;
   padding: 1rem;
-}
-
+ }
 }
 
 
@@ -31,6 +30,5 @@
   grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
   justify-items: center;
   padding: 1rem;
-}
-
+ }
 }

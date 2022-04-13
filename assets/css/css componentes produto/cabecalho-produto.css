@@ -30,6 +30,7 @@
 }
 
 @media (min-width: 768px) {
+
   .cabecalho__icone--pesquisa {
     display: none;
   }
@@ -54,6 +55,7 @@
 }
 
 @media (min-width: 1440px) {
+  
   .cabecalho__logo {
     width: 165px;
     margin-left: 3rem;
